@@ -217,7 +217,7 @@ def Preparar_O_Café():
             
         print(doses)    
         print(f"{tempo_preparo} Segundo")
-        barra_de_carregar(0)
+        barra_de_carregar(tempo_total)
         gera_cupom_fiscal(tipo_de_bebida,Tem_açucar,tamanho_da_bebida)
     
     
@@ -251,7 +251,7 @@ def atualiza_barra(tempo, barra_de_progresso, porcentagem_da_barra):
     
     
 #Config default --> Café Sem leite, Pequeno, Sem Açucar
-#Doses MOCHACCINO, é o container de chocolate
+#Doses MOCHACCINO, é o container de Mochaccino
 #Doses CAFÉ C/LEITE, é o container de leite
 
  
